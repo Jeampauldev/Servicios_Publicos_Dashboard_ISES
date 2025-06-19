@@ -8,3 +8,39 @@ Crear un tablero interactivo a partir de un set de datos abierto relacionado con
 
 ## 📂 Estructura del proyecto
 
+/data/ → Dataset utilizado (formato CSV o conexión externa)
+/notebooks/ → Análisis exploratorio y limpieza de datos
+/dashboard/ → Archivo del dashboard (Power BI, Tableau, etc.)
+README.md → Documentación principal del proyecto
+
+
+## 📊 Herramienta utilizada
+
+- [ ] Power BI
+- [ ] Tableau
+- [ ] Google Data Studio
+- [ ] Otra: ___________________
+
+## 🔍 Dataset
+
+Origen:  
+Descripción:  
+Variables principales:  
+
+(Completa esta parte cuando definas el dataset)
+
+## 📈 Insight y análisis
+
+(Resumen de hallazgos clave que explican las visualizaciones)
+
+## 🚀 Cómo abrir el tablero
+
+1. Clonar el repositorio
+2. Abrir el archivo del tablero con [nombre de la herramienta]
+3. Explorar los filtros, gráficas y paneles disponibles
+
+## 🧑‍💼 Autor
+
+**[Tu Nombre]**  
+Candidato a Data Analytics – ISES  
+Junio 2025
