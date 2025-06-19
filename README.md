@@ -9,8 +9,11 @@ Crear un tablero interactivo a partir de un set de datos abierto relacionado con
 ## 📂 Estructura del proyecto
 
 /data/ 
+
 /notebooks/ 
+
 /dashboard/ 
+
 README.md 
 
 
