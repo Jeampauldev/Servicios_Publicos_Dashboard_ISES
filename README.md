@@ -41,6 +41,6 @@ Variables principales:
 
 ## 🧑‍💼 Autor
 
-**[Tu Nombre]**  
+**Jeam Paul Arcon Solano**  
 Candidato a Data Analytics – ISES  
 Junio 2025
