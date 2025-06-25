@@ -25,14 +25,12 @@ README.md
 
 ## 🔍 Dataset
 
-# 📊 Caracterización de la Base de Datos General
-
-Este repositorio contiene información simulada sobre el consumo de **servicios públicos domiciliarios** y los **reclamos asociados** a dichos servicios en la ciudad de **Barranquilla, Colombia**. Los datos provienen del **Sistema Único de Información (SUI)** de la **Superintendencia de Servicios Públicos Domiciliarios (SSPD)**, específicamente de las vistas del sistema **O3**, que consolida datos y reclamos por tipo de servicio.
+El dataset contiene información simulada sobre el consumo de **servicios públicos domiciliarios** y los **reclamos asociados** a dichos servicios en la ciudad de **Barranquilla, Colombia**. Los datos provienen del **Sistema Único de Información (SUI)** de la **Superintendencia de Servicios Públicos Domiciliarios (SSPD)**, específicamente de las vistas del sistema **O3**, que consolida datos y reclamos por tipo de servicio.
 
 - 🌐 **Portal SUI:** https://sui.superservicios.gov.co/Reportes-del-Sector/
 - 💻 **Herramienta O3:** http://bi.superservicios.gov.co/o3web/jdesktop.jsp
 
----
+--
 
 ## 📁 1. Archivos Incluidos
 
@@ -49,7 +47,7 @@ Contiene información descriptiva sobre las empresas prestadoras de servicios p�
 - **Categoría de empresa**
 - **Fecha de constitución**
 
----
+--
 
 ### 🟦 1.2 `consumo_servicios_barranquilla_simulado.csv`  
 ### 🟦 1.3 `consumo_servicios_barranquilla_simulado_2.csv`
@@ -64,7 +62,7 @@ Incluyen registros simulados de consumo de servicios públicos por parte de usua
 - **Consumo en unidades** (m³, kWh, etc.)
 - **Periodo de facturación**
 
----
+--
 
 ### 🟥 1.4 Archivos de Reclamaciones por Servicio
 
@@ -84,7 +82,7 @@ Cada archivo contiene registros de reclamos clasificados por:
 - **Estado del reclamo** (Pendiente, Resuelto, etc.)
 - **Tiempo de atención** (en días)
 
----
+--
 
 ## 🧩 2. Variables Clave Comunes
 
@@ -97,10 +95,7 @@ Cada archivo contiene registros de reclamos clasificados por:
 | **Consumo**                  | `Unidades de consumo`, `Valor facturado`, `Estrato`                                  |
 | **Reclamaciones**            | `Tipo de reclamo`, `Causa`, `Estado del reclamo`, `Tiempo de atención (días)`        |
 
----
-
-> 🧠 **Nota:** Toda la información contenida en este repositorio es **simulada con fines académicos y analíticos**. No representa datos reales de usuarios ni empresas del sector.
-
+--
 
 ## 📈 Insight y análisis
 
