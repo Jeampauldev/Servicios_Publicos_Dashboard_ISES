@@ -23,6 +23,7 @@ README.md
 - [x] Python
 - [x] O3
 
+---
 
 ## 🔍 Dataset
 
@@ -80,7 +81,6 @@ Cada archivo contiene registros de reclamos clasificados por:
 - **Estado del reclamo** (Pendiente, Resuelto, etc.)
 - **Tiempo de atención** (en días)
 
----
 
 ## 🧩 2. Variables Clave Comunes
 
@@ -93,6 +93,7 @@ Cada archivo contiene registros de reclamos clasificados por:
 | **Consumo**                  | `Unidades de consumo`, `Valor facturado`, `Estrato`                                  |
 | **Reclamaciones**            | `Tipo de reclamo`, `Causa`, `Estado del reclamo`, `Tiempo de atención (días)`        |
 
+---
 
 ## 📈 Insight y análisis
 
