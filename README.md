@@ -25,83 +25,81 @@ README.md
 
 ## 🔍 Dataset
 
-Este repositorio contiene información simulada sobre el consumo de servicios públicos domiciliarios y los reclamos asociados a dichos servicios en la ciudad de Barranquilla, Colombia. Los datos provienen del Sistema Único de Información (SUI) de la Superintendencia de Servicios Públicos Domiciliarios (SSPD), específicamente de las vistas del sistema O3, que consolida datos y reclamos por tipo de servicio.
+# 📊 Caracterización de la Base de Datos General
 
-🌐 Portal SUI: https://sui.superservicios.gov.co/Reportes-del-Sector/
+Este repositorio contiene información simulada sobre el consumo de **servicios públicos domiciliarios** y los **reclamos asociados** a dichos servicios en la ciudad de **Barranquilla, Colombia**. Los datos provienen del **Sistema Único de Información (SUI)** de la **Superintendencia de Servicios Públicos Domiciliarios (SSPD)**, específicamente de las vistas del sistema **O3**, que consolida datos y reclamos por tipo de servicio.
 
-💻 Herramienta O3: http://bi.superservicios.gov.co/o3web/jdesktop.jsp
+- 🌐 **Portal SUI:** https://sui.superservicios.gov.co/Reportes-del-Sector/
+- 💻 **Herramienta O3:** http://bi.superservicios.gov.co/o3web/jdesktop.jsp
 
-📁 Archivos Incluidos
-1. Caracterizacion_General_Empresas.xlsx
+---
+
+## 📁 1. Archivos Incluidos
+
+### 🟩 1.1 `Caracterizacion_General_Empresas.xlsx`
+
 Contiene información descriptiva sobre las empresas prestadoras de servicios públicos.
 
-Variables principales:
+**Variables principales:**
 
-Nombre de la empresa
+- **Nombre de la empresa**
+- **Departamento** y **Municipio**
+- **Tipo de servicio prestado**
+- **Naturaleza jurídica**
+- **Categoría de empresa**
+- **Fecha de constitución**
 
-Departamento y Municipio
+---
 
-Tipo de servicio prestado
+### 🟦 1.2 `consumo_servicios_barranquilla_simulado.csv`  
+### 🟦 1.3 `consumo_servicios_barranquilla_simulado_2.csv`
 
-Naturaleza jurídica
-
-Categoría de empresa
-
-Fecha de constitución
-
-2. consumo_servicios_barranquilla_simulado.csv
-3. consumo_servicios_barranquilla_simulado_2.csv
 Incluyen registros simulados de consumo de servicios públicos por parte de usuarios.
 
-Variables principales:
+**Variables principales:**
 
-Estrato socioeconómico
+- **Estrato socioeconómico**
+- **Tipo de servicio** (Acueducto, Energía, etc.)
+- **Valor facturado**
+- **Consumo en unidades** (m³, kWh, etc.)
+- **Periodo de facturación**
 
-Tipo de servicio (Acueducto, Energía, etc.)
+---
 
-Valor facturado
+### 🟥 1.4 Archivos de Reclamaciones por Servicio
 
-Consumo en unidades (m³, kWh, etc.)
-
-Periodo de facturación
-
-4. Archivos de Reclamaciones por Servicio
-Reclamaciones-Acueducto.xlsx
-
-Reclamaciones-Alcantarillado.xlsx
-
-Reclamaciones-Aseo.xlsx
-
-Reclamaciones-Energia.xlsx
-
-Reclamaciones-Gas Natural.xlsx
+- `Reclamaciones-Acueducto.csv`
+- `Reclamaciones-Alcantarillado.csv`
+- `Reclamaciones-Aseo.csv`
+- `Reclamaciones-Energia.csv`
+- `Reclamaciones-Gas Natural.csv`
 
 Cada archivo contiene registros de reclamos clasificados por:
 
-Año y Mes
+- **Año** y **Mes**
+- **Empresa prestadora del servicio**
+- **Departamento** y **Municipio**
+- **Causa del reclamo**
+- **Número de reclamos**
+- **Estado del reclamo** (Pendiente, Resuelto, etc.)
+- **Tiempo de atención** (en días)
 
-Empresa prestadora del servicio
+---
 
-Departamento y Municipio
+## 🧩 2. Variables Clave Comunes
 
-Causa del reclamo
+| **Categoría**                | **Variables Comunes**                                                                 |
+|-----------------------------|----------------------------------------------------------------------------------------|
+| **Identificación geográfica** | `Departamento`, `Municipio`                                                           |
+| **Temporalidad**             | `Año`, `Mes`                                                                          |
+| **Servicio**                 | `Tipo de servicio` (`Acueducto`, `Energía`, etc.)                                    |
+| **Empresa**                  | `Nombre de la empresa prestadora` o `Código`                                          |
+| **Consumo**                  | `Unidades de consumo`, `Valor facturado`, `Estrato`                                  |
+| **Reclamaciones**            | `Tipo de reclamo`, `Causa`, `Estado del reclamo`, `Tiempo de atención (días)`        |
 
-Número de reclamos
+---
 
-Estado del reclamo (Pendiente, Resuelto, etc.)
-
-Tiempo de atención (en días)
-
-🧩 Variables Clave Comunes
-Categoría	Variables Comunes
-Identificación geográfica	Departamento, Municipio
-Temporalidad	Año, Mes
-Servicio	Tipo de servicio (Acueducto, Energía, etc.)
-Empresa	Nombre de la empresa prestadora o Código
-Consumo	Unidades de consumo, Valor facturado, Estrato
-Reclamaciones	Tipo de reclamo, Causa, Estado del reclamo, Tiempo de atención (días)
-
-
+> 🧠 **Nota:** Toda la información contenida en este repositorio es **simulada con fines académicos y analíticos**. No representa datos reales de usuarios ni empresas del sector.
 
 
 ## 📈 Insight y análisis
