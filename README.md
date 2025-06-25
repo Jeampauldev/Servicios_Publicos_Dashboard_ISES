@@ -25,39 +25,21 @@ README.md
 
 ## 🔍 Dataset
 
-CARACTERIZACIÓN DE LA BASE DE DATOS GENERAL
-Origen
-La información proviene del Sistema Único de Información (SUI) de la Superintendencia de Servicios Públicos Domiciliarios de Colombia. Específicamente, los datos están organizados a partir de vistas del sistema O3, las cuales agrupan información consolidada y reclamos de los usuarios por servicio público domiciliario.
+Este repositorio contiene información simulada sobre el consumo de servicios públicos domiciliarios y los reclamos asociados a dichos servicios en la ciudad de Barranquilla, Colombia. Los datos provienen del Sistema Único de Información (SUI) de la Superintendencia de Servicios Públicos Domiciliarios (SSPD), específicamente de las vistas del sistema O3, que consolida datos y reclamos por tipo de servicio.
 
-Portal del SUI: https://sui.superservicios.gov.co/Reportes-del-Sector/
+🌐 Portal SUI: https://sui.superservicios.gov.co/Reportes-del-Sector/
 
-Herramienta O3: http://bi.superservicios.gov.co/o3web/jdesktop.jsp
+💻 Herramienta O3: http://bi.superservicios.gov.co/o3web/jdesktop.jsp
 
-Descripción General
-La base de datos está compuesta por información simulada sobre consumo de servicios públicos domiciliarios en Barranquilla y reclamos asociados a los servicios de:
-
-Acueducto
-
-Alcantarillado
-
-Aseo
-
-Energía
-
-Gas Natural
-
-Además, se incluye una caracterización general de las empresas prestadoras de servicios públicos.
-
-📂 Archivos Proporcionados y su Contenido
-Caracterizacion_General_Empresas.xlsx
-
-Contiene variables descriptivas de las empresas prestadoras.
+📁 Archivos Incluidos
+1. Caracterizacion_General_Empresas.xlsx
+Contiene información descriptiva sobre las empresas prestadoras de servicios públicos.
 
 Variables principales:
 
 Nombre de la empresa
 
-Departamento y municipio
+Departamento y Municipio
 
 Tipo de servicio prestado
 
@@ -67,15 +49,15 @@ Categoría de empresa
 
 Fecha de constitución
 
-consumo_servicios_barranquilla_simulado.csv y consumo_servicios_barranquilla_simulado_2.csv
+2. consumo_servicios_barranquilla_simulado.csv
+3. consumo_servicios_barranquilla_simulado_2.csv
+Incluyen registros simulados de consumo de servicios públicos por parte de usuarios.
 
-Información simulada de consumo de servicios por parte de los usuarios.
-
-Variables típicas esperadas:
+Variables principales:
 
 Estrato socioeconómico
 
-Tipo de servicio
+Tipo de servicio (Acueducto, Energía, etc.)
 
 Valor facturado
 
@@ -83,8 +65,7 @@ Consumo en unidades (m³, kWh, etc.)
 
 Periodo de facturación
 
-Archivos de Reclamaciones por Servicio (Excel)
-
+4. Archivos de Reclamaciones por Servicio
 Reclamaciones-Acueducto.xlsx
 
 Reclamaciones-Alcantarillado.xlsx
@@ -95,30 +76,30 @@ Reclamaciones-Energia.xlsx
 
 Reclamaciones-Gas Natural.xlsx
 
-Cada archivo contiene reclamos clasificados por:
+Cada archivo contiene registros de reclamos clasificados por:
 
-Año y mes
+Año y Mes
 
-Empresa responsable
+Empresa prestadora del servicio
 
-Departamento y municipio
+Departamento y Municipio
 
 Causa del reclamo
 
 Número de reclamos
 
-Estado del reclamo (pendiente, resuelto, etc.)
+Estado del reclamo (Pendiente, Resuelto, etc.)
 
 Tiempo de atención (en días)
 
-🧩 Variables Principales Comunes
+🧩 Variables Clave Comunes
 Categoría	Variables Comunes
-Identificación Geográfica	Departamento, Municipio
+Identificación geográfica	Departamento, Municipio
 Temporalidad	Año, Mes
 Servicio	Tipo de servicio (Acueducto, Energía, etc.)
-Empresa	Nombre o código de la empresa prestadora
-Consumo	Unidades de consumo, valor facturado, estrato
-Reclamaciones	Tipo de reclamo, causa, estado del reclamo, tiempo de atención
+Empresa	Nombre de la empresa prestadora o Código
+Consumo	Unidades de consumo, Valor facturado, Estrato
+Reclamaciones	Tipo de reclamo, Causa, Estado del reclamo, Tiempo de atención (días)
 
 
 
