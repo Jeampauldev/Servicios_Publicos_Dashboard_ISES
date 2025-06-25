@@ -95,9 +95,21 @@ Cada archivo contiene registros de reclamos clasificados por:
 
 ---
 
-## 📈 Insight y análisis
 
-(Resumen de hallazgos clave que explican las visualizaciones)
+## 📈 Insight y Análisis
+
+- **Reclamos por Servicio:** Energía y acueducto concentran la mayor cantidad de reclamos en todos los años, destacando interrupciones y errores de facturación como causas principales.
+
+- **Causas Frecuentes:** Problemas de medición, facturación y continuidad del servicio son recurrentes en todos los servicios públicos.
+
+- **Municipios Críticos (2024):** Soledad, Malambo y Sabanalarga presentan altos volúmenes de reclamos, lo que indica zonas prioritarias para intervención operativa.
+
+- **Duración de Interrupciones:** Barrios como Me Quejo y Los Andes presentan los tiempos promedio más altos, revelando posibles cuellos de botella técnicos.
+
+- **Consumo Simulado:** El consumo aumenta con el estrato; los estratos bajos registran más casos de fraude y consumo sospechoso, útil para control y monitoreo.
+
+- **Relación Consumo-Reclamos:** Algunos barrios muestran simultáneamente altos niveles de consumo y reclamos, lo que sugiere sobrecarga operativa en zonas específicas.
+
 
 ## 🚀 Cómo abrir el tablero
 
