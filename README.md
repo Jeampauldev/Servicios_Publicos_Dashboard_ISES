@@ -8,11 +8,17 @@ Crear un tablero interactivo a partir de un set de datos abierto relacionado con
 
 ## 📂 Estructura del proyecto
 
-/data/ 
+/00_data_raw/ 
 
-/notebooks/ 
+/01_data_clean/ 
 
-/dashboard/ 
+/02_notebooks/ 
+
+/03_outputs/ 
+
+/04_reports/ 
+
+/05_powerbi_dashboard 
 
 README.md 
 
