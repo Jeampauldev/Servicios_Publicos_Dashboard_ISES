@@ -20,7 +20,7 @@ README.md
 ## 📊 Herramienta utilizada
 
 - [ ] Power BI
-- [ ] Python
+- [x] Python
 
 
 ## 🔍 Dataset
