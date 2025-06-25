@@ -19,8 +19,9 @@ README.md
 
 ## 📊 Herramienta utilizada
 
-- [ ] Power BI
+- [x] Power BI
 - [x] Python
+- [x] O3
 
 
 ## 🔍 Dataset
@@ -30,7 +31,6 @@ El dataset contiene información simulada sobre el consumo de **servicios públi
 - 🌐 **Portal SUI:** https://sui.superservicios.gov.co/Reportes-del-Sector/
 - 💻 **Herramienta O3:** http://bi.superservicios.gov.co/o3web/jdesktop.jsp
 
---
 
 ## 📁 1. Archivos Incluidos
 
@@ -47,7 +47,6 @@ Contiene información descriptiva sobre las empresas prestadoras de servicios p�
 - **Categoría de empresa**
 - **Fecha de constitución**
 
---
 
 ### 🟦 1.2 `consumo_servicios_barranquilla_simulado.csv`  
 ### 🟦 1.3 `consumo_servicios_barranquilla_simulado_2.csv`
@@ -62,7 +61,6 @@ Incluyen registros simulados de consumo de servicios públicos por parte de usua
 - **Consumo en unidades** (m³, kWh, etc.)
 - **Periodo de facturación**
 
---
 
 ### 🟥 1.4 Archivos de Reclamaciones por Servicio
 
@@ -82,7 +80,7 @@ Cada archivo contiene registros de reclamos clasificados por:
 - **Estado del reclamo** (Pendiente, Resuelto, etc.)
 - **Tiempo de atención** (en días)
 
---
+---
 
 ## 🧩 2. Variables Clave Comunes
 
@@ -95,7 +93,6 @@ Cada archivo contiene registros de reclamos clasificados por:
 | **Consumo**                  | `Unidades de consumo`, `Valor facturado`, `Estrato`                                  |
 | **Reclamaciones**            | `Tipo de reclamo`, `Causa`, `Estado del reclamo`, `Tiempo de atención (días)`        |
 
---
 
 ## 📈 Insight y análisis
 
